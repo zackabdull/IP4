@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.landing {
+  background-image: url("../images/pexels-rodolfo-clix-1596888.jpg");
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 14%;
+}
