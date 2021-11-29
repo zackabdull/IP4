@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="icon" href="images/icons/pizza_icon_131067.png" />
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/app.js"></script>
@@ -22,8 +19,137 @@
         <h3>where we make authentic italian pizzaria</h3>
       </div>
       <div>
-        <a href="#about"><img id="gif" src="images/pizza2.gif" alt="" /></a>
+        <a href="#order"><img id="gif" src="images/pizza2.gif" alt="" /></a>
       </div>
     </div>
+    <div class="container">
+      <div class="row" id="order">
+        <h2 class="text-center">please select your order</h2>
+        <div class="col-md-6 text-center">
+          <div>
+            <img
+              class="w-100"
+              src="images/pexels-airam-datoon-9424930.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <label for="flavor">pizza Flavor</label><br />
+            <select class="flavors form-control" id="flavor" required>
+              <br />
+              <option label="chicken alfredo pizza" value="">
+                Chicken Alfredo Pizza
+              </option>
+              <option label="Taco Quesadila Pizza" value="">
+                Taco Quesadila Pizza
+              </option>
+              <option label="Mushrooms" value="">Mushrooms</option>
+              <option label="Macaroni And Cheese Pizza" value="">
+                Macaroni And Cheese Pizza
+              </option>
+              <option label="Beef pizza" value="">Beef pizza</option>
+              <option label="Sausage pizza" value="">
+                Sausage pizza
+              </option></select
+            ><br />
+            <label for="size">Size</label>
+            <select class="form-control" id="size">
+              <option value="">Choose option</option>
+              <option value="1500">Large =ksh 1500</option>
+              <option value="1000">Medium =ksh 1000</option>
+              <option value="500">Small= ksh500</option></select
+            ><br />
+            <label for="crust">Crust</label>
+            <select class="form-control" id="crust">
+              <option value="">Choose option</option>
+              <option value="150">Crispy =ksh 150</option>
+              <option value="100">Stuffed=ksh 100</option>
+              <option value="70">Gluten-free =ksh 70</option></select
+            ><br />
+            <label for="toppings" name="toppings">Toppings</label>
+            <select class="form-control" id="toppings">
+              <option value="">Choose option</option>
+              <option value="60">Cheese =ksh60</option>
+              <option value="60">pepperoni =ksh60</option>
+
+              <option value="60">onions =ksh60</option></select
+            ><br />
+            <label for="quan">Quantity</label>
+            <input
+              class="form-control"
+              type="text"
+              name="pizza"
+              id="quan"
+              placeholder="0"
+              max=""
+              min="0"
+            /><br />
+            <button
+              class="btn btn-success mx-auto d-block submit"
+              type="submit"
+              id="submit2"
+              onclick="getTotalAmount();"
+            >
+              <strong>Checkout</strong>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 pt-5 pb-5 text-center">
+          <img
+            class="icon"
+            src="images/social_icons/twitter.png"
+            alt="twitter icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/dribble.png"
+            alt="dribble icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/behance.png"
+            alt="behance icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/facebook.png"
+            alt="facebook icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/skype.png"
+            alt="skype icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/stumble_upon.png"
+            alt="stumble icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/pinterest.png"
+            alt="pintrest icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/you_tube.png"
+            alt="youtube icon"
+          />
+          <img
+            class="icon"
+            src="images/social_icons/flickr.png"
+            alt="flickr icon"
+          />
+        </div>
+      </div>
+    </div>
+    <p class="text-center">DELANI STUDIO</p>
+    <p class="text-center">2021</p>
   </body>
 </html>
