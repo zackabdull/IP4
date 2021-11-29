@@ -8,12 +8,12 @@ body {
   text-align: center;
   height: auto;
   background-size: cover;
-  padding: 14%;
+  padding: 12%;
 }
 #gif {
-  padding-top: 40px;
+  padding-top: 140px;
   margin-top: 10%;
-  padding-bottom: 40px;
+
   height: 10%;
   width: 10%;
 }
@@ -34,4 +34,12 @@ body {
   60% {
     transform: translateY(-15px);
   }
+}
+.order {
+  background-image: url("../images/background2.png");
+  background-position: center;
+  text-align: center;
+  height: auto;
+  background-size: cover;
+  padding: 7%;
 }
